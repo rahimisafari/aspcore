@@ -1,0 +1,70 @@
+{
+  "format": 1,
+  "restore": {
+    "/home/hossein/dotnet/aspcore/aspcore.csproj": {}
+  },
+  "projects": {
+    "/home/hossein/dotnet/aspcore/aspcore.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/home/hossein/dotnet/aspcore/aspcore.csproj",
+        "projectName": "aspcore",
+        "projectPath": "/home/hossein/dotnet/aspcore/aspcore.csproj",
+        "packagesPath": "/home/hossein/.nuget/packages/",
+        "outputPath": "/home/hossein/dotnet/aspcore/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/home/hossein/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "dependencies": {
+            "microsoft.web.librarymanager.build": {
+              "target": "Package",
+              "version": "[2.1.175, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/7.0.202/RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
