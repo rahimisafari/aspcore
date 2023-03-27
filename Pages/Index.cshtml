@@ -23,7 +23,7 @@
         </tr>
     </thead>
     <tbody>
-        @foreach (var bug in Model.bugs.sampleBugs)
+        @foreach (var bug in Model.bugs)
             {
                 <tr>
                     <td>@bug.id</td>
@@ -35,7 +35,7 @@
   
     </tbody>
     <tfoot>
-        count of records: @Model.bugs.sampleBugs.Count();
+        count of records: @Model.bugs.Count();
     </tfoot>
 </table>
 
