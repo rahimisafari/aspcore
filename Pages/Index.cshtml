@@ -12,7 +12,6 @@
 <table class="table">
     <thead>
         <tr scope="row">
-            <td>ID</td>
             <td>Name</td>
             <td>Desc.</td>
             <td>IsDone</td>
@@ -23,7 +22,6 @@
         @foreach (var bug in Model.bugs)
             {
                 <tr>
-                    <td>@bug.id</td>
                     <td>@bug.name</td>
                     <td>@bug.description</td>
                     <td>@bug.isDone</td>
