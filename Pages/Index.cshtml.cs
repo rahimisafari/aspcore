@@ -23,7 +23,7 @@ public class IndexModel : PageModel
 
     public string? currentYear{get;set;}
     //public Bugs bugs=new Bugs();
-    public IList<Bug> bugs;
+    public IList<Bug>? bugs;
     public void OnGet()
     {
         currentYear=DateTime.Now.Year.ToString();

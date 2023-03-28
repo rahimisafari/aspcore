@@ -3,6 +3,11 @@
 @{
     ViewData["Title"] = "Home page.";
 }
+@if (TempData["msg"] is not null)
+{
+    <div class="alert alert-info">@TempData["msg"]</div>    
+}
+
 <h1>Bug List</h1>
 <table class="table">
     <thead>
@@ -11,6 +16,7 @@
             <td>Name</td>
             <td>Desc.</td>
             <td>IsDone</td>
+            <td>ops.</td>
         </tr>
     </thead>
     <tbody>
@@ -21,12 +27,17 @@
                     <td>@bug.name</td>
                     <td>@bug.description</td>
                     <td>@bug.isDone</td>
+                    <td>
+                        <a class="btn btn-primary" asp-page="./editBug" asp-route-id="@bug.id" >Edit</a>
+                        <a class="btn btn-danger" asp-page="./deleteBug" asp-route-id="@bug.id" >Delete</a>
+                        
+                    </td>
                 </tr>  
             } 
   
     </tbody>
     <tfoot>
-        count of records: @Model.bugs.Count();
+        count of records: @Model.bugs.Count()
     </tfoot>
 </table>
 

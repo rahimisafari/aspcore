@@ -26,6 +26,7 @@ public class CreateBugModel:PageModel {
     public ActionResult OnPost(){
         _db.Bugs.Add(new Bug{name=name,description=desc,isDone=false});
         _db.SaveChanges();
+        TempData["msg"]="Record Created succesfull.";
         return RedirectToPage("./index");
     }
 }

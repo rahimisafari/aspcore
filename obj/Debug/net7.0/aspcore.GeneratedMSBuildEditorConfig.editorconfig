@@ -24,12 +24,24 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = UGFnZXMvQ3JlYXRlQnVnLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
+[/home/hossein/dotnet/aspcore/Pages/DeleteBug.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvRGVsZXRlQnVnLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/home/hossein/dotnet/aspcore/Pages/EditBug.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvRWRpdEJ1Zy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
 [/home/hossein/dotnet/aspcore/Pages/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXMvSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
 [/home/hossein/dotnet/aspcore/Pages/Shared/_Layout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXMvU2hhcmVkL19MYXlvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/home/hossein/dotnet/aspcore/Pages/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
 [/home/hossein/dotnet/aspcore/Pages/_ViewStart.cshtml]

@@ -5,7 +5,7 @@
 namespace aspcore.Migrations
 {
     /// <inheritdoc />
-    public partial class Init : Migration
+    public partial class init : Migration
     {
         /// <inheritdoc />
         protected override void Up(MigrationBuilder migrationBuilder)
@@ -18,7 +18,7 @@ namespace aspcore.Migrations
                         .Annotation("Sqlite:Autoincrement", true),
                     name = table.Column<string>(type: "TEXT", nullable: true),
                     description = table.Column<string>(type: "TEXT", nullable: true),
-                    isDone = table.Column<bool>(type: "INTEGER", nullable: true)
+                    isDone = table.Column<bool>(type: "INTEGER", nullable: false)
                 },
                 constraints: table =>
                 {

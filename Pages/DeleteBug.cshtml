@@ -1,0 +1,21 @@
+@page
+@model aspcore.Pages.DeleteBugModel
+
+@{
+
+}
+<h1>Delete Bugs</h1>
+<form method="post" >
+    <div class="row form-group">
+        <div class="col-8">
+            <label>Name</label>
+            <input type="text" class="form-control" asp-for="selectedBug.name" disabled>
+
+            <label for="">Description</label>
+            <input type="text" class="form-control" asp-for="selectedBug.description" disabled>
+            <input type="checkbox" class="form-check-input" asp-for="selectedBug.isDone" disabled> Is Done
+
+            <button class="btn btn-danger m-2" >Delete</button>
+        </div>
+    </div>
+</form>
